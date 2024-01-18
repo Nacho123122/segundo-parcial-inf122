@@ -1,0 +1,52 @@
+:root {
+    --orange: #FF872C;
+    --white: #FFFFFF;
+    --clear-grey: #cacaca;
+    --sm: 24px;
+}
+
+button {
+    width: auto;
+    height: 40px;
+    font-family: sans-serif;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: var(--sm);
+    background-color: var(--clear-grey);
+}
+
+.contenedor-meta {
+    background-color: var(--white);
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-content: center;
+    border-color: black;
+    width: 300px;
+    height: 40px;
+}
+
+
+.meta {
+    width: 300px;
+    height: 80px;
+    border-radius: 5px;
+    border-color: black;
+    margin-top: 10px;
+    font-size: 20px;
+   
+}
+
+.boton1 {
+    width: auto;
+    height: auto;
+    
+}
+.box2{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
